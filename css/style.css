@@ -1,0 +1,7 @@
+/*给canvas编写一个样式*/
+canvas
+{
+	display: block;/*块元素*/
+	margin: 50px auto;/*居中*/
+	box-shadow:5px 5px 65px #6B6B6B, 20px 20px 20px #6B6B6B; /*阴影：分别是 左上角，右下角*/
+}

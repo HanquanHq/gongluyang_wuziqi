@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>五子棋对弈</title>
+<style type="text/css">
+
+.container {
+	height: 910px;
+	width: 1000px;
+	margin: auto;
+	<!--以下使container居中-->
+    position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #CCC;
+	font-size: 24px;
+	font-family: "隶书";
+}
+.header {
+	height: 306px;
+	width: 1000px;
+	float: none;
+	background-color: #FFC;
+	background-image: url(header-pic.jpg);
+	font-size: 110px;
+	font-family: "隶书";
+	color: #E6E6E6;
+}
+.left {
+	height: 533px;
+	width: 214px;
+	float: left;
+	background-color: #503D2C;
+	color: #CCC;
+	font-size: 20px;
+	font-family: "隶书";
+}
+.main {
+	height: 533px;
+	width: 784px;
+	float: left;
+	color: #03C;
+	font-size: 36px;
+}
+.right {
+	float: left;
+	height: 533px;
+	width: 100px;
+	background-color: #CFF;
+}
+.footer {
+	height: 71px;
+	width: 1000px;
+	background-color: #503D2C;
+	float: left;
+}
+
+</style>
+</head>
+
+<body background="background.jpg">
+<div class="container">
+	<div class="header"><img src="header-pic.png" width="1000" height="306"></div>
+    <table width="100%" height="64" border="1"  bgcolor="#4A3722">
+  <tr>
+    <td height="60" align="center"><a href="#" style="color:#CCC; text-decoration:none; font-weight: bold;" >首页</a></td>
+    <td align="center"><a href="#" style="color:#CCC; text-decoration:none; font-weight: bold;" >入门教程</a></td>
+    <td align="center"><a href="#" style="color:#CCC; text-decoration:none; font-weight: bold;" >规则帮助</a></td>
+    <td align="center"><a href="#" style="color:#CCC; text-decoration:none; font-weight: bold;" >名局棋谱</a></td>
+    <td align="center"><a href="#" style="color:#CCC; text-decoration:none; font-weight: bold;" >弈坛春秋</a></td>
+  </tr>
+</table>
+
+	<div class="left">
+	  <table width="90%" height="430" border="0" align="center">
+	    <tr>
+	      <td width="60%">简介</td>
+	      <td width="40%">&nbsp;</td>
+        </tr>
+	    <tr>
+	      <td>中文名：</td>
+	      <td>五子棋</td>
+        </tr>
+	    <tr>
+	      <td>英文名：</td>
+	      <td>Gomoku</td>
+        </tr>
+	    <tr>
+	      <td>参与人数：</td>
+	      <td>1或2人</td>
+        </tr>
+	    <tr>
+	      <td>起源：</td>
+	      <td>中国</td>
+        </tr>
+	    <tr>
+	      <td>棋盘：</td>
+	      <td>15×15</td>
+        </tr>
+	    <tr>
+	      <td>棋子：</td>
+	      <td>黑白</td>
+        </tr>
+	    <tr>
+	      <td>棋子材质：</td>
+	      <td>硬质</td>
+        </tr>
+	    <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+        </tr>
+	    <tr>
+	      <td>&nbsp;</td>
+	      <td>&nbsp;</td>
+        </tr>
+      </table>
+	</div>
+	<div class="main">
+	  <table width="100%" height="420" border="0">
+	    <tr>
+	      <td height="215" align="center"  ><img src="renren1.png" width="673" height="267"></td>
+        </tr>
+	    <tr>
+	      <td height="199" align="center"><img src="renji.png" width="677" height="265"></td>
+        </tr>
+      </table>
+	</div>
+<!-- <div class="right">此处显示  class "right" 的内容</div>-->	
+	<div class="footer">此处显示  class "footer" 的内容</div></div>
+</body>
+</html>
